@@ -4,8 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zacrac-test</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <script src="https://nelwhix-serve.s3.eu-central-1.amazonaws.com/serve.js"></script>
 </head>
 <body>
-    
+    <header class="py-9 px-24 flex justify-between">
+        <img src="/dist/images/logo.svg" width="137" height="27" />
+
+        <div class="flex justify-between w-1/3 font-Inter">
+            <span>Home</span>
+            <span>Our Services</span>
+            <span>Pricing</span>
+            <span>Company</span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-black pl-24 grid grid-cols-2 gap-x-[121px]">
+            <div class="pt-[280px]">
+                <p class="capitalize text-[#96EF76] font-Sora text-2xl font-semibold">who we are</p>
+                <p class="text-white font-Inter mt-3 text-lg">
+                    Cashwise is a leading fintech company dedicated to providing personalized financial services that cater to the unique needs and goals of our clients. With a team of industry experts, visionary technologists, and passionate financial enthusiasts, we bring together a perfect blend of financial expertise and technological prowess.
+                </p>
+            </div>
+            <div class="pt-[153px] relative">
+                <img width="53" height="53" class="absolute left-1/3 top-36" src="/dist/images/green-cursor.svg" />
+                <img width="194" height="83" class="absolute top-[600px] -left-[100px]" src="/dist/images/finance-rect.svg" />
+                <img src="/dist/images/hero.svg" width="856" height="613" />
+            </div>
+        </section>
+
+        <!-- Mission and Vision statement -->
+        <section class="pt-[155px] px-24 grid grid-cols-2 gap-x-4 font-Inter">
+            <div class="rounded-[30px] bg-[#F3F3F3] py-9 px-11">
+                <div class="flex justify-between">
+                    <p class="font-semibold text-2xl mt-4">Our Mission</p>
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="29.5" cy="29.5" r="29" stroke="black"/>
+                        <path d="M34.2761 24.1642L21.3845 21.232L22.1855 17.8397L40.8793 22.0915L36.4734 40.7495L33.0746 39.9764L36.113 27.1096L18.0395 38.3813L16.2026 35.4359L34.2761 24.1642Z" fill="black"/>
+                        </svg> 
+                </div>
+
+                <div class="grid place-content-center">
+                    <img src="/dist/images/cube.svg" width="265" height="298" />
+                </div> 
+
+                <p class="mt-7">
+                    our mission is to revolutionize the financial landscape by empowering individuals and businesses with innovative and secure financial solutions. We strive to bridge the gap between traditional banking systems and cutting-edge technology, ensuring a seamless and inclusive financial experience ....
+                </p>
+            </div>
+
+            <div class="rounded-[30px] bg-[#F3F3F3] py-9 px-11">
+                <div class="flex justify-between">
+                    <p class="font-semibold text-2xl mt-4">Our Vision</p>
+                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="29.5" cy="29.5" r="29" stroke="black"/>
+                        <path d="M34.2761 24.1642L21.3845 21.232L22.1855 17.8397L40.8793 22.0915L36.4734 40.7495L33.0746 39.9764L36.113 27.1096L18.0395 38.3813L16.2026 35.4359L34.2761 24.1642Z" fill="black"/>
+                        </svg> 
+                </div>
+
+                <div class="grid place-content-center">
+                    <img src="/dist/images/cylinders.svg" width="265" height="298" />
+                </div> 
+
+                <p class="mt-7">
+                    Our vision is to create a world where financial freedom is accessible to everyone, irrespective of their background or location. We envision a future where financial decisions are driven by data-driven insights, smart automation, and transparent practices, empowering individuals to make informed cho ....
+                </p>
+            </div>
+        </section>
+
+        <!-- Pitch -->
+        <section class="px-24 pt-[155px]">
+            <h2 class="font-Sora font-semibold text-4xl capitalize">what sets us apart</h2>
+
+            <div class="grid grid-cols-3 font-Inter mt-16 gap-10">
+                <div>
+                    <img width="47" height="47" src="/dist/images/lightbulb.svg" />
+                    <p class="font-semibold text-xl my-4">Innovation</p>
+
+                    <p class="text-lg">
+                        We are at the forefront of financial technology, continuously exploring and integrating the latest advancements to offer cutting-edge solutions that enhance our users' financial lives.
+                    </p>
+                </div>
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-[#96EF7636] grid place-content-center">
+                        <img src="/dist/images/safe.svg" />
+                    </div>
+                    <p class="font-semibold text-xl my-4">Security</p>
+
+                    <p class="text-lg">
+                        Your security is our utmost priority. We employ state-of-the-art security measures, encryption protocols, and advanced authentication methods to safeguard your financial data and transactions.
+                    </p>
+                </div>
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-[#96EF7636] grid place-content-center">
+                        <img src="/dist/images/palette.svg" />
+                    </div>
+                    <p class="font-semibold text-xl my-4">User Experience</p>
+
+                    <p class="text-lg">
+                        We are committed to providing an intuitive, user-friendly platform that makes managing finances a breeze. Our interface is designed with simplicity and functionality in mind to ensure a seamless user experience.
+                    </p>
+                </div>
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-[#96EF7636] grid place-content-center">
+                        <img src="/dist/images/user.svg" />
+                    </div>
+                    <p class="font-semibold text-xl my-4">Personalization</p>
+
+                    <p class="text-lg">
+                        We understand that every individual's financial journey is unique. That's why we offer tailored financial solutions that align with your specific goals and aspirations.
+                    </p>
+                </div>
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-[#96EF7636] grid place-content-center">
+                        <img src="/dist/images/question.svg" />
+                    </div>
+                    <p class="font-semibold text-xl my-4">Customer Support</p>
+
+                    <p class="text-lg">
+                        We are at the forefront of financial technology, continuously exploring and integrating the latest advancements to offer cutting-edge solutions that enhance our users' financial lives.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--Call to Action-->
+        <section class="px-24 pt-[155px]">
+            <div class="bg-black rounded-[30px]">
+                
+            </div>
+        </section>
+    </main>
 </body>
 </html>
